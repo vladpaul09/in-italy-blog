@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_2" data-name="Livello 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 23.11 23.11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #001f80;
+      }
+
+      .cls-3 {
+        fill: #f1f2f2;
+      }
+
+      .cls-4 {
+        fill: #ef091f;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-1" cx="11.55" cy="11.55" r="11.55"/>
+    </clipPath>
+  </defs>
+  <g id="Livello_1-2" data-name="Livello 1">
+    <g class="cls-5">
+      <g>
+        <g>
+          <rect class="cls-3" x="-2.95" y=".03" width="29.09" height="23.02"/>
+          <polygon class="cls-4" points="26.15 9.25 13.34 9.25 13.34 .03 9.84 .03 9.84 9.25 -2.93 9.25 -2.93 13.85 9.84 13.85 9.84 23.06 13.34 23.06 13.34 13.85 26.15 13.85 26.15 9.25"/>
+        </g>
+        <g>
+          <polygon class="cls-2" points="-2.95 2.71 -2.95 7.73 3.4 7.73 -2.95 2.71"/>
+          <polygon class="cls-2" points=".56 .03 .46 .04 8.69 6.57 8.69 .03 .56 .03"/>
+          <polygon class="cls-4" points="6.82 7.7 -2.95 .03 -2.95 1.84 4.49 7.7 6.82 7.7"/>
+          <polygon class="cls-4" points="16.39 15.39 26.16 23.05 26.16 21.25 18.72 15.39 16.39 15.39"/>
+        </g>
+        <g>
+          <polygon class="cls-2" points="-2.95 20.41 -2.95 15.4 3.4 15.4 -2.95 20.41"/>
+          <polygon class="cls-2" points=".56 23.09 .46 23.09 8.69 16.55 8.69 23.09 .56 23.09"/>
+          <polygon class="cls-4" points="6.77 15.39 -2.94 23.05 -.67 23.05 8.7 15.7 8.7 15.39 6.77 15.39"/>
+        </g>
+        <g>
+          <polygon class="cls-2" points="26.16 2.71 26.16 7.73 19.81 7.73 26.16 2.71"/>
+          <polygon class="cls-2" points="22.66 .03 22.75 .04 14.52 6.57 14.52 .03 22.66 .03"/>
+          <polygon class="cls-4" points="26.15 .04 23.96 .04 14.53 7.44 14.53 7.7 16.52 7.7 26.15 .04"/>
+        </g>
+        <g>
+          <polygon class="cls-2" points="26.16 20.41 26.16 15.4 19.81 15.4 26.16 20.41"/>
+          <polygon class="cls-2" points="22.66 23.09 22.75 23.09 14.52 16.55 14.52 23.09 22.66 23.09"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+enum AdminResourceType {
+  Groups = "groups",
+  Users = "users",
+  News = "news",
+  Articles = "articles",
+  Categories = "categories",
+  CategoriesArticles = "categories-articles",
+  CategoriesEvents = "categories-events",
+  CategoriesPodcasts = "categories-podcasts",
+  Events = "events",
+  Languages = "languages",
+  Municipalities = "municipalities",
+  Provinces = "provinces",
+  Regions = "regions",
+  Podcasts = "podcasts",
+  WebsiteIntl = "website-intl",
+  MenuItems = "menu-items",
+  Settings = "settings",
+  BusinessRegistrationForm = "business-registration-form",
+  ContactForm = "contact-form",
+  Newsletter = "newsletter",
+  Pages = "pages",
+}
+
+export default AdminResourceType;

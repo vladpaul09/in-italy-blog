@@ -1,0 +1,27 @@
+enum ResourceType {
+  Permissions = "permissions",
+  Groups = "groups",
+  Users = "users",
+  Articles = "articles",
+  News = "news",
+  Categories = "categories",
+  CategoriesArticles = "categories-articles",
+  CategoriesEvents = "categories-events",
+  CategoriesPodcasts = "categories-podcasts",
+  Events = "events",
+  Languages = "languages",
+  Municipalities = "municipalities",
+  Provinces = "provinces",
+  Regions = "regions",
+  Podcasts = "podcasts",
+  WebsiteIntl = "website-intl",
+  MenuItems = "menu-items",
+  Settings = "settings",
+  ContactForm = "contact-form",
+  Newsletter = "newsletter",
+  BusinessRegistrationForm = "business-registration-form",
+  Pages = "pages",
+  Tags = "tags",
+}
+
+export default ResourceType;

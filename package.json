@@ -1,0 +1,28 @@
+{
+  "name": "in-italy-blog",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types",
+    "migrate": "turbo run migrate --filter=backend",
+    "seed": "turbo run seed --filter=backend",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "turbo": "^2.6.1",
+    "typescript": "5.9.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@10.5.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src index.ts",
+    "migrate": "npx sequelize-cli db:migrate",
+    "seed": "npx sequelize-cli db:seed --seed",
+    "build": "tsc -p tsconfig.json",
+    "start": "node ./dist/index.js",
+    "check-types": "tsc --noEmit"
+  },
+  "compilerOptions": {
+    "declaration": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/auth": "^5.0.2",
+    "@fastify/cookie": "^11.0.2",
+    "@fastify/cors": "^10.0.1",
+    "@fastify/helmet": "^13.0.0",
+    "@fastify/jwt": "^9.0.3",
+    "@fastify/rate-limit": "^10.2.1",
+    "@fastify/static": "^8.0.4",
+    "bcrypt": "^5.1.1",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.1.0",
+    "fastify-i18n": "^3.0.0",
+    "fastify-plugin": "^5.0.1",
+    "fastify-type-provider-zod": "^4.0.2",
+    "jsdom": "^26.1.0",
+    "mysql2": "^3.11.5",
+    "reflect-metadata": "^0.2.2",
+    "resend": "^6.4.0",
+    "sequelize": "^6.37.5",
+    "typeorm": "^0.3.27",
+    "typeorm-fastify-plugin": "^3.0.0",
+    "web-push": "^3.6.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^24.10.1",
+    "@types/web-push": "^3.6.3",
+    "nodemon": "^3.1.9",
+    "sequelize-cli": "^6.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

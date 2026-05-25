@@ -1,0 +1,18 @@
+Dockerfile.dev
+Dockerfile
+docker-compose-dev.yml
+docker-compose.yml
+.dockerignore
+.gitignore
+node_modules
+dist
+npm-debug.log
+README.md
+.env
+.git
+*.tar
+build_image.bat
+build_image.sh
+
+# misc
+public/uploads/*
